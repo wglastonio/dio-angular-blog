@@ -1,0 +1,50 @@
+.menu-bar-container {
+    display: flex;
+    height: 80px;
+    margin: 20px 0px 0px 0px;
+}
+
+.menu-bar-logo {
+    height: 80px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar-logo > img {
+    height: 100%;
+    margin: 0px 0px 0px 30px;
+}
+
+.menu-bar-content {
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar-options {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar-options > a {
+    margin: 0px 30px 0px 0px;
+}
+
+.menu-bar-social {
+    height: 80px;
+    margin: 0px 20px 0px 0px;
+    display: flex;
+}
+
+.menu-bar-social > a {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar-social > a > img {
+    height: 50%;
+}

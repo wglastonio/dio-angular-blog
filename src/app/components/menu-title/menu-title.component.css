@@ -1,0 +1,17 @@
+.menu-title-container {
+    color: white;
+}
+
+.menu-title-container > p {
+    margin: 10px 0PX;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.menu-title-container > hr {
+    margin: 10px 0px;
+    border-color: #3d3d3d;
+    border-width: 3px;
+}

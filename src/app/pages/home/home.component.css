@@ -1,0 +1,13 @@
+.home-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-articles-big-card {
+    width: 50%;
+}
+
+.home-articles-small-card {
+    width: 50%;
+}

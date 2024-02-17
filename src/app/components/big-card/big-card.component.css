@@ -1,0 +1,30 @@
+.big-card-container {
+    /* border: solid white 2px; */
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 15px;
+}
+
+.big-card-image > img {
+    width: 100%;
+}
+
+.big-card-date > p {
+    font-size: .75rem;
+    color: rgb(155, 154, 154);
+    margin: 10px 0px 10px 0px;
+}
+
+.big-card-title > a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+}
+
+.big-card-content > p {
+    color: rgb(190, 190, 190);
+    margin: 10px 0px 0px 0px;
+}
