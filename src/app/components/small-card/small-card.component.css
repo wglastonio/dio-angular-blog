@@ -1,22 +1,21 @@
 .small-card-container {
-    /* border: solid white 2px; */
     width: 100%;
-    height: 180px;
+    height: 160px;
     display: flex;
     flex-direction: row;
-    padding: 15px 00px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 .small-card-image {
-    max-width: 250px;
+    width: 40%;
 }
 
 .small-card-image > img {
-    width: 90%;
+    width: 100%;
 }
 
 .small-card-content {
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

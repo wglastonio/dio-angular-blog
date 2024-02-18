@@ -1,18 +1,40 @@
-<div class="home-app-menu-bar">
-    <app-menu-bar></app-menu-bar>
-</div>
-
 <div>
     <app-menu-title></app-menu-title>
 </div>
-
+<div class="home-hr">
+    <hr/>
+</div>
 <div class="home-articles">
     <div class="home-articles-big-card">
-        <app-big-card></app-big-card>
+        <app-big-card
+            id = "1"
+            bigCardPicture = "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/06/pokemon_greninja.jpg"
+            bigCardTitle = "NEW - Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+            bigCardContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolores ut fugiat officiis? Sequi maxime libero culpa alias harum delectus quos! Sequi tempora perspiciatis consectetur reprehenderit quaerat, libero nostrum omnis?"
+            >
+        </app-big-card>
     </div>
     <div class="home-articles-small-card">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+            id = "2"
+            smallCardPicture="https://img.pokemondb.net/artwork/vector/large/bulbasaur.png"
+            smallCardTitle="Lorem ipsum sequi corrupti similique, veniam possimus vitae alias tempore voluptates!"
+        ></app-small-card>
+        <div class="home-hr">
+            <hr/>
+        </div>
+        <app-small-card
+            id = "3"
+            smallCardPicture="https://img.pokemondb.net/artwork/vector/large/raichu.png"
+            smallCardTitle="Lorem ipsum sequi corrupti similique, veniam possimus vitae alias tempore voluptates!"
+        ></app-small-card>
+        <div class="home-hr">
+            <hr/>
+        </div>
+        <app-small-card
+            id = "4"
+            smallCardPicture="https://img.pokemondb.net/artwork/vector/large/absol.png"
+            smallCardTitle="Lorem ipsum sequi corrupti similique, veniam possimus vitae alias tempore voluptates!"
+        ></app-small-card>
     </div>
 </div>

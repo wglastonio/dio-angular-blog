@@ -1,0 +1,20 @@
+<div class="content-container">
+    <div class="content-picture">
+        <img src="{{ contentPicture }}" alt="" srcset="">
+    </div>
+    <div class="content-title">
+        <h1>{{ contentTitle }}</h1>
+    </div>
+    <div class="content-hr">
+        <hr/>
+    </div>
+    <div class="content-content">
+        <p>{{ contentContent }}</p>
+    </div>
+    <div class="content-return">
+        <a [routerLink]="['']">
+            <img src="../../../assets/img/backward.svg" alt="" srcset="">
+            <p>Voltar</p>
+        </a>
+    </div>
+</div>

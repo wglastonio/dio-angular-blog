@@ -1,21 +1,18 @@
 <div class="small-card-container">
     <div class="small-card-image">
         <img
-            src="../../../assets/img/snow_image.jpg"
+            src="{{ smallCardPicture }}"
             alt=""
             srcset=""
         >
     </div>
     <div class="small-card-content">
         <div class="small-card-date">
-            <p>{{currentDate}}</p>
+            <p>{{ currentDate }}</p>
         </div>
         <div class="small-card-title">
-            <a href="#">Lorem ipsum sequi corrupti similique, veniam possimus vitae alias tempore voluptates!</a>
+            <a [routerLink]="['content', id]" > {{ smallCardTitle }} </a>
         </div>
     </div>
-</div>
-<div class="small-card-container-hr">
-    <hr/>
 </div>
 
